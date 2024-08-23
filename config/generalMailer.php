@@ -11,14 +11,14 @@ function sendMail($target, $subject, $body) {
     global $conn;
     $mail = new PHPMailer();
     $mail->isSMTP();
-    $mail->Host = "mail.ewiz.gq";
+    $mail->Host = "";
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = "tls";
     $mail->Port = "587";
-    $mail->Username = 'account-creation-final-test@ewiz.gq';
-    $mail->Password = "{+aQ@2-%Bm}w";
+    $mail->Username = '';
+    $mail->Password = "";
     $mail->isHTML(true);
-    $mail->setFrom("account-creation-final-test@ewiz.gq");
+    $mail->setFrom("");
     $mail->Subject = $subject;
     $mail->Body = $body;
     $mail->addAddress($target);
