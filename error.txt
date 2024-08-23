@@ -1,0 +1,3 @@
+
+
+[2023-07-29 19:49:24]  --- Table 'rabuh.friends_list' doesn't exist --- DELETE FROM friends_list WHERE id = 2 
