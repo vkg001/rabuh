@@ -1,0 +1,7 @@
+
+
+[2025-11-09 14:11:31]  --- EMAIL ERROR --- SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+[2025-11-09 14:12:50]  --- EMAIL ERROR --- SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+[2025-11-09 14:26:31]  --- Registration Success --- ravisubedi8@gmail.com

@@ -1,0 +1,33 @@
+.emoji-keyboard {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.emoji {
+    padding: 0.1rem;
+    margin: 1px;
+    display: inline-block;
+    width: 1.5rem;
+}
+
+.emoji:hover {
+    background: #21c87a73;
+    border-radius: 0.3rem;
+}
+
+.emoji-keyboard-tab {
+    max-height: 10rem;
+    overflow: auto;
+}
+
+.emoji-nav-item>.active {
+    border-color: #21c87a !important;
+}
+
+.active-keyboard {
+    color: #21c87a !important;
+    transition: all 0.3s linear;
+}

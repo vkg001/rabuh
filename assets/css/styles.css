@@ -1,0 +1,26 @@
+/*
+8218890703
+8394821758
+*/
+
+.red {
+  background-color: rgb(194, 36, 36) !important;
+}
+
+a:hover {
+  color: red;
+  transition: 500ms;
+}
+
+a {
+  color: black;
+  font-weight: 600;
+}
+
+.nav-element {
+  font-size: x-large;
+}
+
+.fsd {
+  color: rgb(156, 250, 15);
+}
